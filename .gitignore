@@ -1,0 +1,5 @@
+.idea
+node_modules/
+
+# 项目排除路径
+/dist/

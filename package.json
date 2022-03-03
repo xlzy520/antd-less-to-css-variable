@@ -1,0 +1,16 @@
+{
+  "name": "antd-less-to-css-variable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/lib/index.js",
+  "scripts": {
+    "build": "webpack --progress",
+    "test": "node ./test/index"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.2.0"
+  }
+}
