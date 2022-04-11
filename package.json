@@ -1,16 +1,16 @@
 {
   "name": "antd-less-to-css-variable",
   "version": "1.0.1",
-  "description": "",
+  "description": "antd vue的less变量转成css variable",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "webpack --progress",
+    "build": "vite build && npm run minify",
+    "minify": "esbuild --minify ./lib/index.js --outfile=dist/index.min.js --bundle --format=esm",
     "test": "node ./test/index"
   },
-  "author": "",
+  "author": "xlzy520",
   "license": "MIT",
   "devDependencies": {
-    "webpack": "^5.11.1",
-    "webpack-cli": "^4.2.0"
+    "vite": "^2.9.1"
   }
 }
