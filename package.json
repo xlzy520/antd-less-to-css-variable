@@ -2,7 +2,7 @@
   "name": "antd-less-to-css-variable",
   "version": "1.0.2",
   "description": "antd vue的less变量转成css variable",
-  "main": "./dist/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "build": "vite build && npm run minify",
     "minify": "esbuild --minify ./lib/index.js --outfile=dist/index.min.js --bundle --format=esm",
