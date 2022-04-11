@@ -1,6 +1,6 @@
 {
   "name": "antd-less-to-css-variable",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "antd vue的less变量转成css variable",
   "main": "./dist/index.js",
   "scripts": {
